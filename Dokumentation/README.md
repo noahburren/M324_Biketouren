@@ -1,60 +1,24 @@
-# Applikation & Technologie
+# Projektdokumentation
 
-> Zurück zur [Übersicht](../Readme.md)
+> Zurück zur [Übersicht](../README.md)
 
-## Inhaltsverzeichnis
-1. [Projektbeschreibung](#projektbeschreibung)
-2. [User Stories & Endpoints](#user-stories--endpoints)
-3. [Architektur](#architektur)
-4. [Technologie-Entscheid](#technologie-entscheid)
-5. [Risiken](#risiken)
-6. [Lokales Setup](#lokales-setup)
-7. [KI-Nachweis](#ki-nachweis)
+Dieser Ordner enthält die gemeinsame Dokumentation des Biketouren-Projekts. Er dient als Einstiegspunkt für Arbeitsprozesse, Entscheide und später ergänzte technische sowie betriebliche Unterlagen.
 
----
+## Vorhandene Dokumente
 
-## Projektbeschreibung
+- [Arbeitsprozesse](Arbeitsprozesse.md): vorgeschlagener Ablauf von Backlog bis Done sowie gemeinsame Qualitätsgrundsätze
+- [Technologie- und Infrastrukturentscheid](Technologie.md): neutrale Vorlage für den späteren Teamentscheid
 
+## Vorgesehene Dokumentation
 
+Die folgenden Inhalte werden bei Bedarf als eigene Dokumente ergänzt und von hier verlinkt:
 
-## User Stories & Endpoints
+- **Architektur:** Systemkontext, Komponenten, Schnittstellen und wichtige Architekturentscheide
+- **Tests:** Teststrategie, Teststufen, Verantwortlichkeiten und Nachweise
+- **Betrieb:** lokale Ausführung, Deployment, Monitoring, Support und Wiederherstellung
+- **Entscheide:** nachvollziehbare Entscheidungsprotokolle mit Alternativen und Trade-offs
+- **Anforderungen:** bestätigte Projektbeschreibung, User Stories und Akzeptanzkriterien
+- **Lokales Setup:** bestätigte Installations- und Startanleitung
+- **KI-Nachweis:** verwendete Prompts, geprüfte Hinweise, Risiken und eigene Entscheide, falls für den Auftrag erforderlich
 
-| ID | User Story | Methode | Endpoint |
-|----|------------|---------|----------|
-| US1 | Als Benutzer möchte ich alle Produkte sehen, damit ich eines auswählen kann. | GET | `/api/products` |
-|  |  |  |  |
-|  |  |  |  |
-
-## Architektur
-
-
-
-## Technologie-Entscheid
-
-| Bereich | Gewählt | Alternativen | Begründung |
-|---------|---------|--------------|------------|
-| Programmiersprache | Python | Java, C# | Alle im Team kennen Python |
-| Framework |  |  |  |
-| Test-Framework |  |  |  |
-| Datenbank |  |  |  |
-| CI/CD |  |  |  |
-
-## Risiken
-
-| Risiko | Massnahme |
-|--------|-----------|
-| DB-Passwort landet im Code | Passwort als Secret in der Pipeline speichern |
-|  |  |
-
-## Lokales Setup
-
-```bash
-git clone <repo-url>
-```
-
-## KI-Nachweis
-
-- **Prompt:** 
-- **Wichtigste KI-Hinweise:** 
-- **Geprüfte Risiken:** 
-- **Eigene Entscheidung:**
+**TODO: Vom Team ergänzen:** Benötigte Dokumente, Ablageform und Verantwortlichkeiten gemeinsam bestätigen. Fachliche Anforderungen, Architektur, Testvorgehen, Betrieb sowie Technologie und Infrastruktur sind noch nicht beschlossen.
