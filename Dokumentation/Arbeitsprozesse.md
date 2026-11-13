@@ -12,9 +12,9 @@ Die folgenden Regeln sind ein **Teamvorschlag**. Sie gelten erst als gemeinsam v
 
 Zum Team gehören Noah, Zakria, Luca, Yannik und Amir. Alle arbeiten cross-funktional. Entwicklung, Tests, Review, Dokumentation und Infrastruktur werden je nach Aufgabe verteilt beziehungsweise rotiert. Es werden keine dauerhaften Spezialrollen vergeben.
 
-## Arbeitsweise mit dem Project-v2-Board
+## Arbeitsweise mit dem Projektboard
 
-[Link zum Board](https://github.com/users/noahburren/projects/4)
+[Link zum Board](https://gitlab.com/noahburren/M324_Biketouren/-/boards#/)
 
 | Phase | Vorgeschlagene Bedeutung |
 |---|---|
