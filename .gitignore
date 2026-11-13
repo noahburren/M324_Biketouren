@@ -1,0 +1,24 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Umgebungsvariablen und lokale Geheimnisse
+.env
+.env.*
+!.env.example
+
+# Logs und Build-Artefakte
+*.log
+build/
+dist/
+target/
+coverage/
+
+# Abhängigkeiten
+node_modules/
+
