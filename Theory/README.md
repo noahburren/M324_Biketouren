@@ -4,6 +4,8 @@
 
 Dieser Ordner sammelt gemeinsame Theorie, kurze Erklärungen und externe Quellen, die für das Biketouren-Projekt tatsächlich relevant sind.
 
+- [CALMS und The Three Ways](CALMS_Three_Ways.md) – Arbeitsvorlage zur Fallstudie und zum Transfer auf das Biketouren-Projekt
+
 Mögliche Themen sind:
 
 - Git und nachvollziehbare Commits
