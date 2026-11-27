@@ -21,6 +21,7 @@
     - Wartezeiten reduzieren
     - kontinuierliche Verbesserung
     - Kundennutzen im Vordergrund
+    - TechNova: Kanban-Boards, weniger Wartezeiten
 
 - M (Measurement)
     - Entscheidungen anhand von Metriken
@@ -33,6 +34,7 @@
     - Dokumentation / Wiki
     - aus Erfahrungen anderer lernen
     - eng verbunden mit Culture
+    - TechNova: Wiki, interne Lernformate, Erfahrungsberichte
 
 ## 2. The Three Ways
 
@@ -74,6 +76,77 @@
 - continuous improvement
 - schnellere Auslieferung
 - bessere Qualität
+
+## Missverständnisse rund um DevOps
+
+- DevOps ist nicht nur Automation
+  - Kultur, Zusammenarbeit und Kommunikation genauso wichtig
+- betrifft die ganze Organisation
+  - auch Testing, Security und Management
+- Tools alleine reichen nicht (Docker, Jenkins usw.)
+- keine sofortige Lösung für alle Probleme
+  - schrittweise Verbesserung
+- nicht jeder Entwickler muss alles können
+  - gemeinsame Verantwortung im Team
+- auch für kleine Unternehmen geeignet
+- Agile und DevOps ergänzen sich
+- kein kurzfristiger Hype
+- bestehende Prozesse verbessern statt komplett ersetzen
+- nicht nur Kosten sparen
+  - Qualität, Geschwindigkeit und Kundenzufriedenheit
+
+## Knowledge Check
+
+### 1. Warum ist die kulturelle Veränderung wichtig?
+
+- bessere Kommunikation zwischen Dev und Ops
+- gemeinsame Ziele und Verantwortung
+- offene Fehlerkultur
+- Automation alleine löst keine organisatorischen Probleme
+
+### 2. Welche Rolle haben Führungskräfte?
+
+- Zeit und Ressourcen bereitstellen
+- Zusammenarbeit fördern
+- Vertrauen schaffen
+- Weiterbildung ermöglichen
+- Fehler als Lernmöglichkeit betrachten
+
+### 3. Warum schrittweise einführen?
+
+- weniger Risiken
+- Mitarbeitende können sich anpassen
+- bestehende Prozesse weiterverwenden
+- z.B. Tests, Deployments und Reviews schrittweise verbessern
+
+### 4. Vorteile für kleinere Unternehmen
+
+- weniger manueller Aufwand
+- effizientere Nutzung vorhandener Ressourcen
+- schnellere Releases
+- schneller auf Kundenwünsche reagieren
+
+### 5. Zusammenhang zwischen Agile und DevOps
+
+- Agile: iterative Entwicklung, flexible Planung
+- DevOps: Auslieferung, Betrieb und Feedback
+- gemeinsam: continuous improvement
+
+### 6. Langfristige Vorteile
+
+- bessere Softwarequalität
+- höhere Kundenzufriedenheit
+- kürzere Release-Zyklen
+- bessere Wettbewerbsfähigkeit
+- stabilerer Betrieb
+
+### 7. DevOps in hierarchischen Unternehmen
+
+- Silos schrittweise abbauen
+- cross-funktionale Teams
+- kürzere Entscheidungswege
+- mehr Eigenverantwortung
+- gemeinsame Ziele statt einzelner Abteilungsziele
 
 ## 4. Bewertung der Transformation
 
