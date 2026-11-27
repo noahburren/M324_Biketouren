@@ -1,78 +1,53 @@
-# Technologie- und Infrastrukturentscheid
+# Technologie und Infrastruktur (P1)
 
-> Zurück zur [Dokumentationsübersicht](README.md)
+> Zurück zur [Dokumentation](README.md)
 
-## Status dieses Dokuments
+## Projekt
 
-Dieses Dokument ist eine neutrale, ausfüllbare Entscheidungsvorlage. Es enthält **keinen getroffenen Technologie- oder Infrastrukturentscheid**. Alle konkreten Angaben werden erst nach gemeinsamer Bewertung durch das Team eingetragen.
+- 2 Web-APIs, je eigenes Projekt und eigene DB, kein Frontend
+- Bike-Service (`Code/bike-service/`)
+  - US1 · `POST /bikes` – Typ, Rahmennummer, Radhöhe, automatische ID und Erstellungsdatum
+  - US2 · `GET /bikes` – vollständige Liste, Tests für leere Liste, Fehlerfälle und Antwortzeit
+- Tour-Service (`Code/tour-service/`)
+  - US3 · `POST /tours` – Start/Ziel, Start-/Endzeit, Begleiter, Bike-ID
+  - Validierung · Start ≠ Ziel, Ende nach Start, Bike-ID via `GET /bikes`
 
-## Anforderungen des Biketouren-Projekts
+```mermaid
+flowchart LR
+    A[API-Client] --> B[Bike-Service]
+    A --> T[Tour-Service]
+    B --> D1[(Bike-DB)]
+    T --> D2[(Tour-DB)]
+    T -->|GET /bikes| B
+```
 
-| Bereich | Anforderung | Priorität | Nachweis oder Quelle |
-|---|---|---|---|
-| Funktionale Anforderungen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen |
-| Qualitätsanforderungen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen |
-| Daten und Schnittstellen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen |
-| Datenschutz und Sicherheit | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen |
-| Betrieb und Verfügbarkeit | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen |
+## Auswahl (Teamfreigabe offen)
 
-## Bekannte Rahmenbedingungen
+- APIs · Java 21, Spring Boot (REST, Validierung)
+- Build und Tests · Maven je Service, JUnit / Spring Boot Test (Unit, Integration)
+- Daten · PostgreSQL (2 DBs, eigene Benutzer, `UNIQUE` für Rahmennummer), lokal via Docker Compose
+- CI/CD · GitHub Actions je Service
+- Hosting · Container + PostgreSQL, Anbieter und Kosten offen
+- Organisation · bestehende GitHub Issues / Projects, gemeinsames Excel (Zeit pro Task)
+- Git · Feature-Branch → Pull Request → Review → Merge
 
-- Thema des Projekts: Biketouren.
-- Das Team besteht aus Noah, Zakria, Luca, Yannik und Amir.
-- Das Team arbeitet cross-funktional; Tätigkeiten und Wissen sollen verteilt und rotiert werden.
-- Individuelle Lernjournale liegen ausserhalb dieses Repositories.
-- Konkrete technische, organisatorische und betriebliche Vorgaben: **TODO: Vom Team ergänzen**.
-- Budget, Fristen und vorhandene Plattformvorgaben: **TODO: Vom Team ergänzen**.
+## Alternativen
 
-## Zu vergleichende Technologievarianten
+- C# / ASP.NET Core + PostgreSQL · REST, Tests, CI/CD
+- Gleiche Sprache für beide Services · weniger Lern- und Wartungsaufwand
+- MongoDB · feste Felder und Constraints sprechen für PostgreSQL
+- GitLab CI · Plattformwechsel bei Nutzung nötig
 
-Zuerst werden mindestens zwei realistische Varianten eingetragen. Die Bewertung soll sich auf bestätigte Anforderungen oder Ergebnisse aus Spikes stützen.
+## Offene Prüfungen
 
-| Kriterium | Gewichtung | Variante A: TODO: Vom Team ergänzen | Variante B: TODO: Vom Team ergänzen | Weitere Variante: TODO: Vom Team ergänzen |
-|---|---|---|---|---|
-| Teamwissen | TODO | TODO | TODO | TODO |
-| Lernaufwand | TODO | TODO | TODO | TODO |
-| Testbarkeit | TODO | TODO | TODO | TODO |
-| CI/CD-Eignung | TODO | TODO | TODO | TODO |
-| Betrieb | TODO | TODO | TODO | TODO |
-| Sicherheit | TODO | TODO | TODO | TODO |
-| Kosten | TODO | TODO | TODO | TODO |
-| Risiken | TODO | TODO | TODO | TODO |
-| Gesamtbewertung | TODO | TODO | TODO | TODO |
+- Teamwissen · Java / C#
+- Services · unabhängiger Build und Start, getrennte DB-Zugriffe
+- Tour-Tests · Ausfall der Bike-API, Ablehnung ungültiger Bike-ID
+- Hosting · Kosten, Zugriff für Lehrperson, Secrets
 
-## Infrastrukturvarianten
+## Quellen
 
-Auch Infrastruktur wird erst nach Klärung der Anforderungen verglichen.
-
-| Variante | Beschreibung | Vorteile | Nachteile und Risiken | Kosten und Betriebsaufwand |
-|---|---|---|---|---|
-| Variante 1: TODO: Vom Team ergänzen | TODO | TODO | TODO | TODO |
-| Variante 2: TODO: Vom Team ergänzen | TODO | TODO | TODO | TODO |
-| Weitere Variante: TODO: Vom Team ergänzen | TODO | TODO | TODO | TODO |
-
-## Offene Fragen und mögliche Spikes
-
-| Offene Frage oder Annahme | Möglicher Spike oder Abklärung | Ergebnis | Zuständig / Termin |
-|---|---|---|---|
-| TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | Noch offen | TODO: Vom Team ergänzen |
-| TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | Noch offen | TODO: Vom Team ergänzen |
-
-Mögliche Spikes sollen klein, zeitlich begrenzt und auf eine konkrete Unsicherheit ausgerichtet sein. Ergebnisse werden so dokumentiert, dass das ganze Team sie nachvollziehen kann.
-
-## Spätere Teamentscheidung
-
-- **Entscheid:** TODO: Vom Team ergänzen
-- **Datum und Beteiligte:** TODO: Vom Team ergänzen
-- **Gültigkeitsbereich:** TODO: Vom Team ergänzen
-- **Bedingungen oder Zeitpunkt für eine Neubewertung:** TODO: Vom Team ergänzen
-
-## Begründung
-
-**TODO: Vom Team ergänzen:** Entscheidung anhand der bestätigten Anforderungen, Kriterien, Bewertungen und Spike-Ergebnisse begründen.
-
-## Verworfene Alternativen und Trade-offs
-
-| Alternative | Grund für die Verwerfung | Akzeptierte Trade-offs | Quellen oder Nachweise |
-|---|---|---|---|
-| TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen | TODO: Vom Team ergänzen |
+- [Spring REST](https://spring.io/guides/gs/rest-service)
+- [PostgreSQL Constraints](https://www.postgresql.org/docs/17/ddl-constraints.html)
+- [Docker Compose](https://docs.docker.com/compose/intro/compose-application-model)
+- [GitHub Actions / Maven](https://docs.github.com/en/actions/tutorials/build-and-test-code/java-with-maven)

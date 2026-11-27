@@ -19,3 +19,14 @@
 **Validierung:** Codex hat den Push auf GitHub bestätigt und geprüft, ob die verlinkte Datei im Repo liegt.
 
 **Eigene Entscheidung / Eigenleistung:** Wir haben das Zeitlogging selbst geführt und entschieden, wohin gepusht wird und wo der Link steht. Die Repo-Übersicht, die Arbeitsprozesse, die Technologievorlage und die Lernjournal-Links waren schon da. Wie viel KI bei diesen älteren Sachen geholfen hat, wissen wir aus dem Verlauf nicht genau.
+
+## P1 – Technologie und Backlog
+
+- Tool · ChatGPT / Codex
+- Zweck · Variantenvergleich, Planung zu 3 User Stories, Stichpunkte für P1-Doku
+- Ausgangsplan · Technologie, Infrastruktur und Backlog dokumentieren
+- KI-Vorschlag · gleicher Stack, getrennte DBs, Bike-API zur Validierung
+- Übernommen · Vorschläge als Diskussionsgrundlage
+- Geändert · P1-Änderungen als Stichpunkte
+- Validierung · Markdown-Diff geprüft, technische Prüfung und Quellen in [Technologie](Technologie.md)
+- Teamentscheid · offen, Teamwissen, Hosting, Kosten und Testbarkeit prüfen
