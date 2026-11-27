@@ -201,3 +201,4 @@
 - [CALMS](https://ch-tbz-it.gitlab.io/Stud/m324/Kultur/CALMS/)
 - [The Three Ways](https://ch-tbz-it.gitlab.io/Stud/m324/Kultur/TheThreeWays/)
 - [Fallstudie TechNova Solutions](https://ch-tbz-it.gitlab.io/Stud/m324/Projekt/T1_Theorie_DevOps_Kultur/#fallstudie-die-devops-transformation-von-technova-solutions)
+- [Missverständnis rund um Devops](https://ch-tbz-it.gitlab.io/Stud/m324/Kultur/Missverstaendnisse%20rund%20um%20DevOps/)
