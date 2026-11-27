@@ -45,4 +45,6 @@ Individuelle Lernjournale liegen absichtlich ausserhalb dieses Repositories. Hie
 - [Lernjournal - Amir](https://github.com/Amir0719/324_Lernjournal_Amir)
 - [Lernjournal - Luca](https://github.com/Brandleee/M324_Lernjournal)
 - [Lernjournal - Noah](https://gitlab.com/yannik.rer/lernjournal)
+- [Lernjournal - Yannik](https://gitlab.com/yannik.rer/lernjournal)
+
 - **TODO: Vom Team ergänzen:** Externe Lernjournal-Links der weiteren Teammitglieder eintragen, sofern sie freigegeben sind.
