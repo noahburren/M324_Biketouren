@@ -19,3 +19,14 @@
 **Validierung:** Codex hat den Push auf GitHub bestätigt und geprüft, ob die verlinkte Datei im Repo liegt.
 
 **Eigene Entscheidung / Eigenleistung:** Wir haben das Zeitlogging selbst geführt und entschieden, wohin gepusht wird und wo der Link steht. Die Repo-Übersicht, die Arbeitsprozesse, die Technologievorlage und die Lernjournal-Links waren schon da. Wie viel KI bei diesen älteren Sachen geholfen hat, wissen wir aus dem Verlauf nicht genau.
+
+## KI-Nachweis – P1 Technologie und Backlog
+
+- **Tool:** ChatGPT / Codex
+- **Zweck:** Variantenvergleich und kompakte Dokumentation; GitHub-Backlog aus dem vorgegebenen Auftrag erstellen.
+- **Ausgangslage:** vorhandene Technologievorlage, sechs P1-Issues und drei vorgegebene User Stories; eigener Technologieentscheid des Teams noch nicht dokumentiert.
+- **Prompt:** Technologie und Infrastruktur für P1 sinnvoll dokumentieren und passenden Backlog erstellen.
+- **KI-Hinweis:** dieselbe Technologie für beide Services, getrennte PostgreSQL-Datenbanken, Validierung via Bike-API, getrennte Builds und Tests.
+- **Quellenabgleich:** offizielle Spring-, PostgreSQL-, Docker- und GitHub-Dokumentationen sind in der Technologieübersicht verlinkt.
+- **Offene Prüfung:** Teamwissen, kompatible Versionen, Testläufe, Hosting-Kosten und Datenbankzugriffe noch verifizieren.
+- **Eigene Entscheidung:** noch vom Team zu bestätigen; keine Testergebnisse oder Zustimmung werden vorweggenommen.
