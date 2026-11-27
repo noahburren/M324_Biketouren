@@ -6,6 +6,7 @@ Dieser Ordner enthält die gemeinsame Dokumentation des Biketouren-Projekts. Er 
 
 ## Vorhandene Dokumente
 
+- [KI-Nachweis](KI-Nachweis.md)
 - [Arbeitsprozesse](Arbeitsprozesse.md): vorgeschlagener Ablauf von Backlog bis Done sowie gemeinsame Qualitätsgrundsätze
 - [Technologie- und Infrastrukturentscheid](Technologie.md): neutrale Vorlage für den späteren Teamentscheid
 
@@ -19,6 +20,5 @@ Die folgenden Inhalte werden bei Bedarf als eigene Dokumente ergänzt und von hi
 - **Entscheide:** nachvollziehbare Entscheidungsprotokolle mit Alternativen und Trade-offs
 - **Anforderungen:** bestätigte Projektbeschreibung, User Stories und Akzeptanzkriterien
 - **Lokales Setup:** bestätigte Installations- und Startanleitung
-- **KI-Nachweis:** verwendete Prompts, geprüfte Hinweise, Risiken und eigene Entscheide, falls für den Auftrag erforderlich
 
 **TODO: Vom Team ergänzen:** Benötigte Dokumente, Ablageform und Verantwortlichkeiten gemeinsam bestätigen. Fachliche Anforderungen, Architektur, Testvorgehen, Betrieb sowie Technologie und Infrastruktur sind noch nicht beschlossen.
